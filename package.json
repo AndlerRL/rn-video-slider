@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React Native for Web starter template",
   "keywords": [],
-  "main": "src/index.js",
+  "main": "src/containers/index.js",
   "dependencies": {
     "react": "16.13.1",
     "react-dom": "16.13.1",
