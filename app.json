@@ -1,0 +1,12 @@
+{
+  "name": "VideoSliderTikTokStyle",
+  "displayName": "VideoSliderTikTokStyle",
+  "expo": {
+    "name": "VideoSliderTikTokStyle",
+    "slug": "VideoSliderTikTokStyle",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
