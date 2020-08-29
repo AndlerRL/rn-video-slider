@@ -12,6 +12,8 @@ import { styles } from "./util/styles";
 import Home from "./screens/Home";
 
 const App = () => {
+  const logoURI = require('./assets/images/new_logo.png')
+
   return (
     <View style={styles.app}>
       <StatusBar style="auto" />

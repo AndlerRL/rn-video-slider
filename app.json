@@ -2,11 +2,13 @@
   "name": "VideoSliderTikTokStyle",
   "displayName": "VideoSliderTikTokStyle",
   "expo": {
-    "name": "VideoSliderTikTokStyle",
-    "slug": "VideoSliderTikTokStyle",
+    "name": "RN Video Slider",
+    "slug": "vidslidertiktokstyle",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": "",
+    "githubUrl": "https://github.com/AndlerRL/rn-video-slider"
   }
 }
