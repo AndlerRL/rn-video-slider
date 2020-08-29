@@ -8,10 +8,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@reactly/react-native-autoplay-scroll-video": "^1.1.1",
     "expo": "~38.0.9",
-    "expo-av": "^8.4.0",
-    "expo-splash-screen": "^0.5.0",
+    "expo-splash-screen": "^0.3.1",
     "expo-status-bar": "^1.0.0",
     "expo-updates": "~0.2.10",
     "react": "~16.11.0",
@@ -20,6 +18,7 @@
     "react-native-gesture-handler": "~1.6.1",
     "react-native-reanimated": "~1.9.0",
     "react-native-screens": "~2.9.0",
+    "react-native-swipe-gestures": "^1.0.5",
     "react-native-unimodules": "~0.10.1",
     "react-native-vector-icons": "^7.0.0",
     "react-native-video": "^5.1.0-alpha8",
@@ -34,5 +33,7 @@
   "jest": {
     "preset": "react-native"
   },
-  "private": true
+  "resolutions": {
+    "metro-config": "0.56.3"
+  }
 }

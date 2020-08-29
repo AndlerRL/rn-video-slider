@@ -9,23 +9,24 @@ import {
   TouchableWithoutFeedback
 } from "react-native";
 import { styles } from "./util/styles";
-import VideoSlider from "./components/video-slider";
+import Home from "./screens/Home";
 
 const App = () => {
   return (
     <View style={styles.app}>
       <StatusBar style="auto" />
-      <VideoSlider />
-      <View>
-        <Text>
-          Test...
-        </Text>
-      </View>
-      <Image
-        source={{ uri: require('./assets/images/new_logo.png')}}
-        resizeMode="contain"
-        style={styles.logo}
-      />
+      <Home />
+      {
+        logoURI !== '' ? (
+          <View>
+            <Image
+              source={logoURI}
+              resizeMode="contain"
+              style={styles.logo}
+            />
+          </View>
+        ) : null
+      }
     </View>
   )
 }
